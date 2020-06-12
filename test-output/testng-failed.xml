@@ -5,8 +5,6 @@
     <classes>
       <class name="udemy.Greencart">
         <methods>
-          <include name="add3Kg"/>
-          <include name="products"/>
           <include name="addToCart"/>
         </methods>
       </class> <!-- udemy.Greencart -->
