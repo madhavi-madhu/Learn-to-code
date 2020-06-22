@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.Greencart">
+      <class name="udemy.testcases.referTest">
         <methods>
-          <include name="addToCart"/>
+          <include name="verifyTitleofHomePage"/>
+          <include name="Close"/>
+          <include name="verifyHomebuttonidDisplayed"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- udemy.Greencart -->
+      </class> <!-- udemy.testcases.referTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

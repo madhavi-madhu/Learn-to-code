@@ -57,7 +57,7 @@ int j=0;
 				driver.findElements(By.xpath("//a[@class=\'increment\']")).get(i).click();
 				Thread.sleep(1000);
 				driver.findElements(By.xpath("//button[(text()='ADD TO CART')]")).get(i).click();
-				Thread.sleep(1500);
+				Thread.sleep(3500);
 				System.out.println(formatnames+ " item is added to cart");
 				if(j==vegies.length) {break;}
 			} else {
