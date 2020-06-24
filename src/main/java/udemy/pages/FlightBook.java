@@ -2,6 +2,7 @@ package udemy.pages;
 import udemy.base.*;
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,8 +13,8 @@ public class FlightBook extends Base {
 
 
 
-	@FindBy(xpath="//*[@id=\"ctl00_mainContent_ddl_originStation1\"]")
-		static WebElement  from ;
+//	@FindBy(xpath="//*[@id=\"ctl00_mainContent_ddl_originStation1_CTXT\"]")
+//		static Element  from ;
 		
 		
 		
@@ -21,10 +22,14 @@ public class FlightBook extends Base {
 			PageFactory.initElements(driver, this);
 		}
 		
-		public void selectFrom(String x) {
-		from.click();
-		Select  origin =new Select(from);
-		origin.selectByVisibleText(x);
-		
+		public static void selectFrom(String x) {
+		 
+	//	WebElement from =		
+				driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_ddl_originStation1_CTXT\"]")).click();
+				//from.click();
+		 
+//		Select  origin =new Select(from);
+//		origin.selectByVisibleText(x);
+//		
 }
 		}

@@ -2,6 +2,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <classes><class name="Checkbox"></class></classes>
+    <classes>
+      <class name="udemy.NewTesttest"/>
+      <class name="udemy.FlightBookings"/>
+      <class name="udemy.ExtentreportPractise"/>
+      <class name="udemy.Checkbox"/>
+      <class name="udemy.testcases.referTest"/>
+      <class name="udemy.Greencart"/>
+      <class name="udemy.testcases.FlightBookTest"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

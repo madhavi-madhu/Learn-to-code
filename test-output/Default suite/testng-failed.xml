@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.testcases.referTest">
+      <class name="udemy.testcases.FlightBookTest">
         <methods>
-          <include name="verifyTitleofHomePage"/>
-          <include name="Close"/>
-          <include name="verifyHomebuttonidDisplayed"/>
-          <include name="Setup"/>
+          <include name="selectDestination"/>
+          <include name="selectOrigin"/>
         </methods>
-      </class> <!-- udemy.testcases.referTest -->
+      </class> <!-- udemy.testcases.FlightBookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

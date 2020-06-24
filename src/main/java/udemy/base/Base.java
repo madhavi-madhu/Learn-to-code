@@ -22,6 +22,7 @@ public class Base {
 			objfile = new FileInputStream(read);
 			prop.load(objfile);
 			System.out.println("file loaded");
+			initialization();
 		} catch (Exception e) {
 			System.out.println("catch exception" + e);
 		}
