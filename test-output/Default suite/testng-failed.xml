@@ -5,8 +5,7 @@
     <classes>
       <class name="udemy.testcases.FlightBookTest">
         <methods>
-          <include name="selectDestination"/>
-          <include name="selectOrigin"/>
+          <include name="selectDepDate"/>
         </methods>
       </class> <!-- udemy.testcases.FlightBookTest -->
     </classes>

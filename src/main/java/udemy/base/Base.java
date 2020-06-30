@@ -30,9 +30,9 @@ public class Base {
 
 	public void initialization() {
 
-		String baseUrl = prop.getProperty("baseUrl");
+	//	String baseUrl = prop.getProperty("baseUrl");
 		String browser = prop.getProperty("browser");
-		System.out.println(baseUrl);
+	//	System.out.println(baseUrl);
 		System.out.println(browser);
 		String chrome = "chrome";
 		System.out.println(browser.contentEquals(chrome));
@@ -46,7 +46,7 @@ public class Base {
 			System.out.println("Firefox loaded");
 		}
 
-		driver.get(baseUrl);
+		driver.get("https://www.spicejet.com/");
 		System.out.println("URL loaded-Initialization");
 		driver.manage().window().maximize();
 		System.out.println("window maximized");
