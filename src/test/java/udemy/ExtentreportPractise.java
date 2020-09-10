@@ -49,7 +49,7 @@ public class ExtentreportPractise {
 		}
 		else
 		{
-		//test.log(LogStatus.FAIL, "Test Failed");
+		test.log(LogStatus.FAIL, "Test Failed");
 		}
 		}
 		@AfterClass

@@ -1,6 +1,9 @@
 package udemy;
 
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;
@@ -18,6 +21,7 @@ public class Greencart {
 
 	WebDriver driver;
 	public static WebElement box;
+	ExtentReports report;
 	String vegies[] = { "Cucumber", "Beans", "Carrot","Capsicum" };
 int j=0;
 	public Greencart() {

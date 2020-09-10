@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-11T14:13:23 IST" name="Default suite" finished-at="2020-08-11T14:13:49 IST" duration-ms="25237">
+  <suite started-at="2020-09-10T18:19:07 IST" name="Default suite" finished-at="2020-09-10T18:24:51 IST" duration-ms="343819">
     <groups>
     </groups>
-    <test started-at="2020-08-11T14:13:23 IST" name="Default test" finished-at="2020-08-11T14:13:49 IST" duration-ms="25237">
-      <class name="udemy.Greencart">
-        <test-method signature="products()[pri:1, instance:udemy.Greencart@48d5f34e]" started-at="2020-08-11T14:13:24 IST" name="products" finished-at="2020-08-11T14:13:24 IST" duration-ms="947" status="PASS">
+    <test started-at="2020-09-10T18:19:07 IST" name="Default test" finished-at="2020-09-10T18:24:51 IST" duration-ms="343819">
+      <class name="NgoTest">
+        <test-method signature="f()[pri:0, instance:NgoTest@424ebba3]" started-at="2020-09-10T18:19:07 IST" name="f" finished-at="2020-09-10T18:24:51 IST" duration-ms="343777" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- products -->
-        <test-method signature="addItemsToCart()[pri:2, instance:udemy.Greencart@48d5f34e]" started-at="2020-08-11T14:13:24 IST" name="addItemsToCart" finished-at="2020-08-11T14:13:49 IST" duration-ms="24213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItemsToCart -->
-      </class> <!-- udemy.Greencart -->
+        </test-method> <!-- f -->
+      </class> <!-- NgoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.testcases.FlightBookTest">
+      <class name="NgoTest">
         <methods>
-          <include name="selectDepDate"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- udemy.testcases.FlightBookTest -->
+      </class> <!-- NgoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
